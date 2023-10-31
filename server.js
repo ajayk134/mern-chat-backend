@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 5001;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://back-end-9oa4.onrender.com',
+    origin: 'https://front-end-lw8k.onrender.com/',
     methods: ['GET', 'POST']
   }
 })
